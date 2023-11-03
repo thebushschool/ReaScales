@@ -18,7 +18,8 @@ void mouseClicked() {
 }
 
 void setup() {
-  windowResize(cols * mult, rows * mult);
+  //windowResize(cols * mult, rows * mult);
+  size(800,800);
   r = (int)(Math.random()*256);
   g = (int)(Math.random()*256);
   b = (int)(Math.random()*256);
